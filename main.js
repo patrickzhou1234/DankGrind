@@ -10,7 +10,7 @@
 // ==/UserScript==
 
 var cmds = ["{\"content\":\"pls beg\",\"tts\":false}", "{\"content\":\"pls fish\",\"tts\":false}", "{\"content\":\"pls hunt\",\"tts\":false}", "{\"content\":\"pls dig\",\"tts\":false}"];
-var cooldowntimes = [46, 41, 45, 50]
+var cooldowntimes = [46, 41, 41, 41]
 
 for (var i=0;i<cmds.length;i++) {
     (function(i) {
