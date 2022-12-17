@@ -15,11 +15,11 @@ var cooldowntimes = [46, 46, 46, 46]
 for (var i=0;i<cmds.length;i++) {
     (function(i) {
    setInterval(function() {
-    fetch("https://discord.com/api/v9/channels/929604250722517022/messages", {
+    fetch("https://discord.com/api/v9/channels/channelid/messages", {
   "headers": {
     "accept": "*/*",
     "accept-language": "en-US,en;q=0.9",
-    "authorization": "NzI2MTUxOTkwMjI4NTQ5NzA1.YdzUwA.9QRs-uXfehap2rTRumMtd6yUpMI",
+    "authorization": "token lol",
     "content-type": "application/json",
     "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"97\", \"Chromium\";v=\"97\"",
     "sec-ch-ua-mobile": "?0",
